@@ -1,0 +1,66 @@
+import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
+export default function FinalProjectSite() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-white p-6 font-sans">
+      <header className="text-center mb-10">
+        <h1 className="text-4xl font-bold text-green-800 mb-2">
+          Final Project and Optimization
+        </h1>
+        <p className="text-lg text-gray-700 max-w-2xl mx-auto">
+          Build a comprehensive web app and ensure its performance, responsiveness, and compatibility.
+        </p>
+      </header>
+
+      <main className="max-w-5xl mx-auto space-y-8">
+        <Card className="shadow-md">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold text-green-700 mb-3">
+              1. Build a Full Web Application (Capstone Project)
+            </h2>
+            <p className="text-gray-700 mb-1">
+              <strong>Objective:</strong> Integrate all skills into one complete web app.
+            </p>
+            <p className="text-gray-700">
+              <strong>Actions:</strong> Develop a final project (e.g., an e-commerce site, blog, or advanced portfolio) with dynamic features using HTML, CSS, and JavaScript.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-md">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold text-green-700 mb-3">
+              2. Optimize for Performance
+            </h2>
+            <p className="text-gray-700 mb-1">
+              <strong>Objective:</strong> Ensure the application runs efficiently and loads quickly.
+            </p>
+            <p className="text-gray-700">
+              <strong>Actions:</strong> Minimize CSS and JavaScript files, apply lazy loading for images, reduce the number of HTTP requests, and optimize load times.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card className="shadow-md">
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-bold text-green-700 mb-3">
+              3. Ensure Cross-Browser Compatibility and Mobile Responsiveness
+            </h2>
+            <p className="text-gray-700 mb-1">
+              <strong>Objective:</strong> Guarantee the application works on all major browsers and devices.
+            </p>
+            <p className="text-gray-700">
+              <strong>Actions:</strong> Test the project on Chrome, Firefox, Safari, and mobile browsers, fixing any compatibility or display issues.
+            </p>
+          </CardContent>
+        </Card>
+      </main>
+
+      <footer className="text-center mt-12 text-gray-500 text-sm">
+        <p>© 2025 ApexPlanet Software Pvt Ltd</p>
+      </footer>
+    </div>
+  );
+}
